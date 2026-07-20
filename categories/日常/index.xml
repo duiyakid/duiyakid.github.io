@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>日常 on duiyakid</title>
+        <link>https://duiyakid.github.io/categories/%E6%97%A5%E5%B8%B8/</link>
+        <description>Recent content in 日常 on duiyakid</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>duiyakid</copyright>
+        <lastBuildDate>Sat, 18 Jul 2026 16:31:54 +0800</lastBuildDate><atom:link href="https://duiyakid.github.io/categories/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>硬盘爆炸后回归</title>
+        <link>https://duiyakid.github.io/p/%E7%A1%AC%E7%9B%98%E7%88%86%E7%82%B8%E5%90%8E%E5%9B%9E%E5%BD%92/</link>
+        <pubDate>Sat, 18 Jul 2026 16:31:54 +0800</pubDate>
+        
+        <guid>https://duiyakid.github.io/p/%E7%A1%AC%E7%9B%98%E7%88%86%E7%82%B8%E5%90%8E%E5%9B%9E%E5%BD%92/</guid>
+        <description>&lt;img src="https://duiyakid.github.io/p/%E7%A1%AC%E7%9B%98%E7%88%86%E7%82%B8%E5%90%8E%E5%9B%9E%E5%BD%92/cover.png" alt="Featured image of post 硬盘爆炸后回归" /&gt;&lt;p&gt;由于vibe coding 过度（可能的原因），导致我的电脑硬盘当场死亡，本地数据全丢，非常Sad。&lt;/p&gt;
+&lt;p&gt;然后我也忘了怎么博客咋写了，这很愚蠢。所以我要写这个文章来记录一下。&lt;/p&gt;
+&lt;p&gt;部署教程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1bovfeaEtQ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.bilibili.com/video/BV1bovfeaEtQ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文字版教程：&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugo/custom-blog/#3-github%E9%83%A8%E7%BD%B2&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://letere-gzj.github.io/hugo-stack/p/hugo/custom-blog/#3-github%E9%83%A8%E7%BD%B2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;hugo版本号：&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases/tag/v0.131.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;0.131.0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;部署仓库：&lt;a class=&#34;link&#34; href=&#34;https://github.com/duiyakid/hugo-auto&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/duiyakid/hugo-auto&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
