@@ -7,7 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>duiyakid</copyright>
-        <lastBuildDate>Sat, 18 Jul 2026 16:31:54 +0800</lastBuildDate><atom:link href="https://duiyakid.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 Jul 2026 19:52:54 +0800</lastBuildDate><atom:link href="https://duiyakid.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>全面Winodws系统优化教程【持续更新】</title>
+        <link>https://duiyakid.github.io/p/%E5%85%A8%E9%9D%A2winodws%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96%E6%95%99%E7%A8%8B%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</link>
+        <pubDate>Wed, 22 Jul 2026 19:52:54 +0800</pubDate>
+        
+        <guid>https://duiyakid.github.io/p/%E5%85%A8%E9%9D%A2winodws%E7%B3%BB%E7%BB%9F%E4%BC%98%E5%8C%96%E6%95%99%E7%A8%8B%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0/</guid>
+        <description>&lt;p&gt;由于每次重装系统都几乎要找很多教程去优化默认设置，所以索性写一篇文章来全面的记录这些优化过程。
+大多数都是搬运借鉴的其他大佬的教程，所有内容都会标注相关来源(&lt;strong&gt;如果是文字版总结的话&lt;/strong&gt;)。&lt;/p&gt;
+&lt;h2 id=&#34;关闭windows的自动更新&#34;&gt;关闭Windows的自动更新
+&lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1hWAMegEqN/?share_source=copy_web&amp;amp;vd_source=626a18249db5bf81e0cfb43585060976&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;被微软逼疯！Win11暂停更新按钮变灰后，我找到了终极解决方法&amp;hellip;&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>硬盘爆炸后回归</title>
         <link>https://duiyakid.github.io/p/%E7%A1%AC%E7%9B%98%E7%88%86%E7%82%B8%E5%90%8E%E5%9B%9E%E5%BD%92/</link>
         <pubDate>Sat, 18 Jul 2026 16:31:54 +0800</pubDate>
