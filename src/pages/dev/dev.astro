@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content'
+
+const posts = (await getCollection('posts')).sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
+---
+
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>所有文章</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 700px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #eee;
+      }
+      a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .date {
+        color: #888;
+        font-size: 0.85rem;
+        margin-right: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>所有文章</h1>
+    <ul>
+      {
+        posts.map((post) => (
+          <li>
+            <span class="date">{post.data.pubDate.toISOString().slice(0, 10)}</span>
+            <a href={`/posts/${post.id.replace(/\.mdx?$/, '')}/`}>{post.data.title}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </body>
+</html>
