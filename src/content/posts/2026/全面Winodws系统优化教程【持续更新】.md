@@ -1,11 +1,11 @@
 ---
 title: '全面Winodws系统优化教程【持续更新】'
-description: '一个迁移的测试文章'
-pubDate: 2026-09-26
+description: '一个迁移的测试文章，来自hugo'
+pubDate: 2026-07-22
 author: 'duiyakid'
 cover: 硬盘爆炸后回归-cover.png
 recommend: false
-tags: ['Litos', 'Documentation']
+tags: ['2026', 'Windows']
 license: 'CC-BY-NC-SA-4.0'
 ---
 由于每次重装系统都几乎要找很多教程去优化默认设置，所以索性写一篇文章来全面的记录这些优化过程。
