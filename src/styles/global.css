@@ -447,3 +447,10 @@ input[type='search']::-moz-search-cancel-button {
 .animate-slide-down {
   animation: slide-down 0.3s ease-out forwards;
 }
+
+/* ===== 文章正文超链接样式 ===== */
+.markdown a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 4px !important;
+}

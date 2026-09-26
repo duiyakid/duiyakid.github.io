@@ -258,7 +258,7 @@ export const COMMENT_CONFIG: CommentConfig = {
   gitalk: {
     clientID: import.meta.env.PUBLIC_GITHUB_CLIENT_ID,
     clientSecret: import.meta.env.PUBLIC_GITHUB_CLIENT_SECRET,
-    repo: 'gitalk-comment',
+    repo: 'duiyakid.github.io',
     owner: 'duiyakid',
     admin: ['duiyakid'],
     language: 'zh-CN',
