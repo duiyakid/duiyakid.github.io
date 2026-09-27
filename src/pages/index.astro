@@ -27,30 +27,41 @@ if (hasPinnedPosts) {
   <div class="relative z-[1]">
     <div class="py-8 pb-10 px-6 sm:px-8">
       <h1 class="flex flex-col gap-2">
-        <span class="text-4xl sm:text-5xl tracking-tight"> Litos </span>
-        <span class="text-muted-foreground font-light text-xl sm:text-2xl block tracking-wide text-balance">
-          A Simple & Modern Blog Theme for Astro
-        </span>
+        <span class="text-4xl sm:text-5xl tracking-tight"> duiyakid </span>
+        <!-- <span class="text-muted-foreground font-light text-xl sm:text-2xl block tracking-wide text-balance">
+          欢迎来到我的个人博客，基于astro与litos
+        </span> -->
       </h1>
       <div class="pro text-muted-foreground text-pretty">
         <p>
-          Litos is a clean and modern Astro blog theme focused on content presentation and reading experience. More than just a blog, it's a
-          personal space to showcase your skills, projects, and life.
+          切换深色浅色，请点击右上角那个显示器、太阳或月亮图标
         </p>
-        <p>
+        <!-- <p>
           Built with Tailwind CSS for elegant responsive design and React components for smooth interactions. Features light/dark theme
           switching, multiple article layouts, GitHub contribution charts, and more. Inspired by
           <a href="https://github.com/needim" target="_blank" rel="nofollow noreferrer">@needim</a>, redesigned by
           <a href="https://github.com/Dnzzk2" target="_blank" rel="nofollow noreferrer">@Dnzzk2</a> based on Astro.
-        </p>
+        </p> -->
       </div>
       <div class="mt-6 flex gap-6">
+        
         {
           SOCIAL_LINKS.map((item) => {
             return <SocialLink href={item.url} icon={item.icon} aria-label={`Link of ${item.name}`} count={item.count} label="followers" />
           })
         }
       </div>
+    </div>
+    <!-- 分割线 -->
+    <SectionDivider />
+    <!-- POST部分 -->
+    <div class="py-8 pb-10 px-6 sm:px-8">
+      <h2 class="text-2xl sm:text-3xl tracking-tight">Posts</h2>
+      <p class="text-muted-foreground mb-6 mt-1">
+        {hasPinnedPosts ? `Pinned` : 'Recent'}
+        {showPosts.length} posts, worth a look.
+      </p>
+      <List posts={showPosts} {type} coverLayout={POSTS_CONFIG.homePageConfig?.coverLayout} />
     </div>
     {
       ENABLED && (
@@ -80,14 +91,7 @@ if (hasPinnedPosts) {
         </>
       )
     }
-    <SectionDivider />
-    <div class="py-8 pb-10 px-6 sm:px-8">
-      <h2 class="text-2xl sm:text-3xl tracking-tight">Posts</h2>
-      <p class="text-muted-foreground mb-6 mt-1">
-        {hasPinnedPosts ? `Pinned` : 'Recent'}
-        {showPosts.length} posts, worth a look.
-      </p>
-      <List posts={showPosts} {type} coverLayout={POSTS_CONFIG.homePageConfig?.coverLayout} />
-    </div>
+    
+    
   </div>
 </Layout>
