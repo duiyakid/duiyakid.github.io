@@ -53,22 +53,25 @@ if (hasPinnedPosts) {
       </div>
     </div>
     <!-- 分割线 -->
-    <SectionDivider />
+    <!-- <SectionDivider /> -->
     <!-- POST部分 -->
     <div class="py-8 pb-10 px-6 sm:px-8">
-      <h2 class="text-2xl sm:text-3xl tracking-tight">Posts</h2>
+      <!-- 首页post标题 -->
+      <h2 class="text-2xl sm:text-3xl tracking-tight">文章</h2>
       <p class="text-muted-foreground mb-6 mt-1">
         {hasPinnedPosts ? `Pinned` : 'Recent'}
         {showPosts.length} posts, worth a look.
       </p>
       <List posts={showPosts} {type} coverLayout={POSTS_CONFIG.homePageConfig?.coverLayout} />
     </div>
+    <!-- 热点图Spotlight -->
     {
       ENABLED && (
         <>
           <SectionDivider />
           <div class="py-8 pb-10 px-6 max-md:px-6">
             <div class="px-2 max-md:px-0">
+              {/* 首页spotlight标题 */}
               <h2 class="text-2xl sm:text-3xl">Spotlight</h2>
               <p class="text-muted-foreground mb-6 mt-1">GitHub contributions in the past year:</p>
             </div>
@@ -77,12 +80,14 @@ if (hasPinnedPosts) {
         </>
       )
     }
+    <!-- Skills技能展示 -->
     {
       SKILLS_ENABLED && SKILLS_DATA.length > 0 && (
         <>
           <SectionDivider />
           <div class="py-8 pb-10 px-6 max-md:px-6">
             <div class="px-2 max-md:px-0">
+              {/* 首页Skills标题 */}
               <h2 class="text-2xl sm:text-3xl tracking-tight">Skills</h2>
               <p class="text-muted-foreground mb-6 mt-1">It's not just skills, but also tools:</p>
             </div>

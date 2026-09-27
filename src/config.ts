@@ -25,41 +25,41 @@ export const SITE: Site = {
   transition: false,
   themeAnimation: true,
 }
-
+// 顶部栏
 export const HEADER_LINKS: Link[] = [
   {
-    name: 'Posts',
+    name: '文章',
     url: '/posts',
   },
   {
-    name: 'Projects',
+    name: '项目',
     url: '/projects',
   },
   {
-    name: 'Photos',
+    name: '图片',
     url: '/photos',
   },
 ]
-
+// 底部栏
 export const FOOTER_LINKS: Link[] = [
   {
-    name: 'Readme',
+    name: '首页',
     url: '/',
   },
   {
-    name: 'Posts',
+    name: '文章',
     url: '/posts',
   },
   {
-    name: 'Projects',
+    name: '项目',
     url: '/projects',
   },
   {
-    name: 'Tags',
+    name: '标签',
     url: '/tags',
   },
   {
-    name: 'Photos',
+    name: '图片',
     url: '/photos',
   },
 ]
@@ -221,9 +221,9 @@ export const GITHUB_CONFIG: GithubConfig = {
 
 //--- Posts Page Config ---
 export const POSTS_CONFIG: PostConfig = {
-  title: 'Posts',
+  title: '文章',
   description: 'Posts by duiyakid',
-  introduce: 'Here, I will share the usage instructions for this theme to help you quickly use it.',
+  introduce: '查询固定年份的文章请使用网站底部的标签或者从文章详情页点击，归档功能正在开发',
   author: 'duiyakid',
   homePageConfig: {
     size: 2,
@@ -277,15 +277,15 @@ export const TAGS_CONFIG: TagsConfig = {
 }
 
 export const PROJECTS_CONFIG: ProjectConfig = {
-  title: 'Projects',
+  title: '项目',
   description: 'The examples of my projects.',
-  introduce: 'The examples of my projects.',
+  introduce: '主要发布于Github上，有些项目会有官网',
 }
 
 export const PHOTOS_CONFIG: PhotosConfig = {
-  title: 'Photos',
+  title: '图片',
   description: 'Here I will record some photos taken in daily life.',
-  introduce: 'Here I will record some photos taken in daily life.',
+  introduce: '我也不知道这个目的是什么，后续开发可能会优化掉.',
 }
 
 export const ANALYTICS_CONFIG: AnalyticsConfig = {
