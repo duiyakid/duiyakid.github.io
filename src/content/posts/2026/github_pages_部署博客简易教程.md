@@ -3,7 +3,7 @@ title: 'github pages 部署博客简易教程'
 description: '记录自己部署博客的细节'
 pubDate: 2026-09-26
 author: 'duiyakid'
-cover: 硬盘爆炸后回归-cover.png
+cover: github_pages_部署博客简易教程-cover.jpg
 recommend: false
 tags: ['2026', 'Web']
 license: 'CC-BY-NC-SA-4.0'
